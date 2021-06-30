@@ -116,7 +116,8 @@ body {
 	font-size: 35px;
 	cursor: pointer;
 	animation: lang 1.5s infinite;
-	-webkit-box-reflect: inherit;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-box-reflect: unset;
 }
 
 @keyframes lang{
