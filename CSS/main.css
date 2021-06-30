@@ -116,20 +116,20 @@ body {
 	font-size: 35px;
 	cursor: pointer;
 	animation: lang 1.5s infinite;
-	-webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: none;
 }
 
 @keyframes lang{
 	0% {
 		box-shadow: 0 0 10px 10px var(--fluorescentBlueColor); 
 		opacity: 1;
-		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: none;
 	}
 
 	100% {
 		box-shadow: 0 0 0px 5px var(--fluorescentBlueColor);
 		opacity: .5;
-		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: none;
 	}
 }
 
