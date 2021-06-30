@@ -121,7 +121,7 @@ body {
 
 @keyframes lang{
 	0% {
-		box-shadow: 0 0 0px 10px var(--fluorescentBlueColor); 
+		box-shadow: 0 0 10px 10px var(--fluorescentBlueColor); 
 		opacity: 1;
 	}
 
