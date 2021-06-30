@@ -119,11 +119,6 @@ body {
 	-webkit-tap-highlight-color: transparent;
 }
 
-.language-btn:active { 
-	background-color: var(--mainFont);
-	
-}
-
 @keyframes lang{
 	0% {
 		box-shadow: 0 0 10px 10px var(--fluorescentBlueColor); 
@@ -139,6 +134,7 @@ body {
 .language-btn i {
 	font-size: 1.6rem;
 	font-weight: 100;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .language-btn p {
