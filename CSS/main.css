@@ -120,7 +120,8 @@ body {
 }
 
 .language-btn:focus { 
-	outline: none; 
+	outline-color: transparent; 
+    	outline-style: none; 
 }
 
 @keyframes lang{
