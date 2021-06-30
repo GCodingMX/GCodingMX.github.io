@@ -119,9 +119,9 @@ body {
 	-webkit-tap-highlight-color: transparent;
 }
 
-.language-btn:focus { 
-	outline-color: transparent; 
-    	outline-style: none; 
+.language-btn:active { 
+	background-color: var(--mainFont);
+	
 }
 
 @keyframes lang{
