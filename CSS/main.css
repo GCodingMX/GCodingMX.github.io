@@ -554,12 +554,11 @@ section {
 }
 
 .portfolio div {
-	height: 344px;	
+	height: 60vh;	
 	margin-top: 1rem;
 	border-radius: 3px;
-	background-size: 100%; /*Adjust full image to the Div */
+	background-size: contain; /*Adjust full image to the Div */
 	background-repeat: no-repeat;
-	box-shadow: 0px 0px 10px 0px var(--fluorescentBlueColor);
 }
 
 /* ENDS PORTFOLIO */
@@ -656,7 +655,7 @@ section {
 }
 
 .service p {
-	color: #000000;
+	color: var(--mainFont);
 	text-shadow: 0px 0px 4px var(--fluorescentBlueColor);
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -698,6 +697,34 @@ footer {
 	font-size: 1.3rem;
 }
 
+#callme {
+	animation: callmee 1s infinite;
+}
+
+@keyframes callmee{
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: .1;
+	}
+}
+
+#emailme {
+	animation: emailmee 1.2s infinite;
+}
+
+@keyframes emailmee{
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: .1;
+	}
+}
+
 .btn-sms {
 	border: 3px solid var(--fluorescentBlueColor);
 	background-color: transparent;
@@ -735,7 +762,7 @@ Responsive Design
 
 	.portfolio div {
 		height: 40vh;	
-		background-size: 100%; /*Adjust full image to the Div */
+		background-size: contain; /*Adjust full image to the Div */
 		box-shadow: none;
 	} 
 
@@ -818,7 +845,7 @@ Responsive Design
 
 	.portfolio div {
 		height: 570px;	
-		background-size: 100%; /*Adjust full image to the Div */
+		background-size: contain; /*Adjust full image to the Div */
 		box-shadow: none;
 	}
 
@@ -873,9 +900,9 @@ Responsive Design
 	}
 
 	.portfolio div {
-		height: 65vh;	
-		background-size: 100%; /*Adjust full image to the Div */
-		box-shadow: 0px 0px 10px 0px var(--fluorescentBlueColor);
+		height: 66vh;	
+		background-size: contain; /*Adjust full image to the Div */
+		box-shadow: none;
 	}
 
 	.service-grid {
