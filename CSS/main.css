@@ -187,6 +187,22 @@ a {
 	color: #FFFFFF;
 }
 
+#tocontact {
+	animation: contactmee 1s infinite;
+}
+
+@keyframes contactmee{
+	0% {
+		box-shadow: 0 0 6px 6px var(--fluorescentBlueColor); 
+		opacity: 1;
+	}
+
+	100% {
+		opacity: .1;
+	}
+}
+
+/*for all ICONS*/
 .uil {
 	color: #00CBCE;
 }
